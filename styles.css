@@ -23,6 +23,8 @@ body {
     background-image: url(Background.png);
     background-repeat: no-repeat;
     background-size: contain;
+    text-align: center;
+    align-items: center;
 }
 
 .container {
@@ -38,6 +40,7 @@ body {
     color: var(--branco-principal);
     display: block;
     text-decoration: none;
+    margin-bottom: 1em;
 }
 
 .botão_secundario {
@@ -53,4 +56,32 @@ body {
 .container_titulo {
     font-size: 28px;
     font-weight: 700;
+}
+
+.container_imagem {
+    margin: 1em 0 2em 0;
+}
+
+.cntainer_caixa {
+    margin: 0 6em;
+}
+
+.secundario_imagem {
+    width: 80%;
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.descricao_titulo {
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;
+}
+
+.descricao_texto {
+    color: var(---cinza-secundario);
 }
